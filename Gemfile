@@ -18,6 +18,7 @@ group :development, :test do
 	gem 'spork-rails', '4.0.0'
 	gem 'guard-spork', '1.5.0'
 	gem 'childprocess', '0.3.6'
+	gem 'factory_girl_rails', '4.2.1'
 end
 
 group :test do
@@ -70,5 +71,8 @@ group :production do
 end
 
 # for rb-readline
-#gem "rb-readline", "~> 0.5.0"
+#gem 'rb-readline', '~> 0.5.0'
+
+# for rails-i18n (Rails Locale Data)
+gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
 
